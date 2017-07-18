@@ -16,3 +16,10 @@ The correct format should be
 command1 > file1
 command1 | command2
 ```
+
+### Filters
+use multiple pipelines to put several commands together. E.g., 
+
+```
+ls /bin /usr/bin | sort | less
+```
