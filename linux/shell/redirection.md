@@ -23,3 +23,13 @@ use multiple pipelines to put several commands together. E.g.,
 ```
 ls /bin /usr/bin | sort | less
 ```
+
+### Uniq
+The command is used in conjunction with `sort`.
+
+```
+ls /bin /usr/bin | sort | uniq | less
+ls /bin /usr/bin | sort | uniq -d | less
+```
+
+the first command is to remove dupe. The second one with option `-d` is to see the duplicates.
