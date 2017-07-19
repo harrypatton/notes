@@ -39,3 +39,9 @@ The command is used to print out line, word and byte counts.
 
 ### grep
 It is `global regular expression pattern`. E.g., `ls /bin | grep zip`.
+
+### head / tail
+Print First / Last Part Of Files. `tail` has an option `-f` to monitor a file content. E.g., it could be very useful to monitor the log file.
+
+### tee
+read from stdin and output to both files and stdout. The tee program reads standard input and copies it to both standard output (allowing the data to continue down the pipeline) and to one or more files. This is useful for capturing a pipeline's contents at an intermediate stage of processing.
