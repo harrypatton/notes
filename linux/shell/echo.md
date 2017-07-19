@@ -30,3 +30,22 @@ Another cool example,
 2007-05 2007-11 2008-05 2008-11 2009-05 2009-11
 2007-06 2007-12 2008-06 2008-12 2009-06 2009-12
 ```
+
+## Parameter expansion
+very similar to environment variable, e.g., `echo $USER`
+
+## Command substitution
+
+## Quoting
+```
+[me@linuxbox ~]$ echo this is a      test
+                      this is a test
+[me@linuxbox ~]$ echo The total is $100.00
+                      The total is 00.00
+```
+
+expansion removes some unexpanded variable. 
+
+We can use `double quoting` to force them to be treated as ordinay characters.
+
+Remember, parameter expansion, arithmetic expansion, and command substitution still take place within double quotes.
