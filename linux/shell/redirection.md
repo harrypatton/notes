@@ -24,7 +24,7 @@ use multiple pipelines to put several commands together. E.g.,
 ls /bin /usr/bin | sort | less
 ```
 
-### Uniq
+### uniq
 The command is used in conjunction with `sort`.
 
 ```
@@ -33,3 +33,9 @@ ls /bin /usr/bin | sort | uniq -d | less
 ```
 
 the first command is to remove dupe. The second one with option `-d` is to see the duplicates.
+
+### wc
+The command is used to print out line, word and byte counts.
+
+### grep
+It is `global regular expression pattern`. E.g., `ls /bin | grep zip`.
